@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{DFAB7A60-E9F1-4D82-8860-E5BC78427D25}">
+	<children>
+		<child name="FrameworkStructure" key="{59811BB1-ACA0-4579-B013-0ACD27A6A3F3}" path="FrameworkStructure\FrameworkStructure.mds" />
+		<child name="MedAvailAutomation" key="{2983FCE2-9242-428D-ACD8-12DA2A32DD39}" path="InventoryUI\MedAvailAutomation.mds" />
+	</children>
+	<testItems key="{24E679F0-C042-4E5E-AA98-E207D72D3279}">
+		<children>
+			<testItem key="{59811BB1-ACA0-4579-B013-0ACD27A6A3F3}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{2983FCE2-9242-428D-ACD8-12DA2A32DD39}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{BCB8315E-BFC6-4226-98BF-C151973BED4A}">
+		<data Version="4">
+			<Items>
+				<Variable Name="MeddispenseLoginUrl" Type="String" Local="False">
+					<DefValue StrValue="https://qa1.medplatform.medavail.com/Meddispense" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{E6144B46-1BD1-4F4E-8604-3EBD17A4A712}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="MedCenter">
+			<child name="MedCenterStartPage" key="{B4AEB58D-10ED-42A8-89CA-795C5CB7C42E}" path="MedCenterStartPage.js" />
+		</folder>
+		<folder name="MedDispense">
+			<child name="MeddispenseLoginPage" key="{70EFD1A0-D037-483C-9176-7D3FA13F45EE}" path="MeddispenseLoginPage.js" />
+			<child name="SignInToMeddispense" key="{C110A799-66AF-4749-BF11-6AED4EB80360}" path="SignInToMeddispense.js" />
+		</folder>
+		<folder name="Medops">
+			<child name="MedopsloginPage" key="{D0C8148A-C22D-4CD8-AF7D-5DBE3CFB96CF}" path="MedopsloginPage.js" />
+		</folder>
+		<child name="TC2" key="{753EBD51-FA60-40BE-AA71-3A4B443D1C00}" path="TC2.js" />
+		<child name="TC3" key="{FD8AFFF5-13DE-470C-B45D-23B20649CD2F}" path="TC3.js" />
+		<child name="TC1" key="{5D9BC4A9-1F90-42F1-8E6E-36E6F7086BDE}" path="TC1.js" />
+	</children>
+</Root>

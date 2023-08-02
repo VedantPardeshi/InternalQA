@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{16265E57-99CC-46FB-9C62-E893691BE25F}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="" />
+	<testData />
+	<data />
+	<children>
+		<child key="{77111236-CE1A-47C3-9799-72A9E31A9FD8}">
+			<config nodeName="TestEvent" lastOpenedTLB="" generatedCLSID="{5000DEBD-103B-4BED-8B17-CA66AE644710}" generatedTLBKey="{B32AEA4B-6E1C-4F1C-AC01-47183B8D47D1}" generatedEventsKey="{9BEE5002-71A2-46C6-BF50-12BF1A83F264}" generatedTLBDesc="TestComplete TestEvent Control - 7/27/2023 5:50:37 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743808" infoControlName="Test Engine Events" infoEventName="OnStartTest" infoEventRealName="OnStartTest" infoDescription="Occurs when TestComplete starts running a test (whether it is run from the UI or command line, or as a project test item)." />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

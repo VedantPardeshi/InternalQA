@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{466DB1BA-5DBF-48CE-982C-9A0995E596AA}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{57273A4C-2979-4626-A59A-1A82D43941CC}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{1A96526B-C9DA-43F7-9B0A-1206DB76B40E}">
+								<Image FileName="859930530" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="page403ForbiddenAccessIsDenied" Key="{CA9BD092-8EC8-43F6-9E3E-963C48E8968E}">
+								<Image FileName="-691508155" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/Meddispense" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeYouDoNotHavePermissionTo" Key="{D6C5FD07-02EC-4918-8EA3-6E3228740C8F}">
+										<Image FileName="1482608320" Left="67" Top="167" Right="1835" Bottom="184" />
+										<TypeInfo Item0="{2A60C740-BA5B-4FD8-96E5-7F5CBF8C127A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch" Key="{2A4D1D97-164D-401B-A008-E51D9F9615BD}">
+								<Image FileName="-2062662092" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7FE44825-58A9-4A8A-83A8-7A3BEE1C510F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLogIn" Key="{7E6C5964-96D0-47CA-93AB-3604982C5240}">
+										<Image FileName="-487053876" Left="249" Top="400" Right="305" Bottom="422" />
+										<TypeInfo Item0="{2A60C740-BA5B-4FD8-96E5-7F5CBF8C127A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//tr/td//h3/a[contains(@class, &apos;l&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;rso&apos;]//table//tr/td//h3/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//table//tr/td//h3/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWwwFacebookComLogin" Key="{C5911F05-01F7-47FC-89ED-DA848FC1F286}">
+								<Image FileName="-2062662092" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7FE44825-58A9-4A8A-83A8-7A3BEE1C510F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.facebook.com/login/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginForm" Key="{2D7D68A7-F418-4CC4-8E72-7A5508904480}">
+										<Image FileName="138182905" Left="754" Top="255" Right="1150" Bottom="492" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddressOrPhoneNumber" Key="{F84DA5DC-FC33-449E-A244-CDD7B305E394}">
+										<Image FileName="138182905" Left="770" Top="261" Right="1134" Bottom="313" />
+										<TypeInfo Item0="{2FC87929-1671-43AA-92B8-76B8CD786F1A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//div[@id=&apos;email_container&apos;]/input[contains(@class, &apos;inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;email_container&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;loginform&apos;]/div[@id=&apos;email_container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{F88CA9FD-BB3C-4DA2-969F-315BE6A856AE}">
+										<Image FileName="-889330673" Left="787" Top="340" Right="1087" Bottom="362" />
+										<TypeInfo Item0="{2FC87929-1671-43AA-92B8-76B8CD786F1A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pass" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pass&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-label=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form//div[2]//input[contains(@class, &apos;inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;loginform&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//form/div[@id=&apos;loginform&apos;]/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{D78933CF-A19F-4B24-99CB-25DA469D4DDE}">
+										<Image FileName="-1063493378" Left="770" Top="325" Right="1134" Bottom="377" />
+										<TypeInfo Item0="{2A60C740-BA5B-4FD8-96E5-7F5CBF8C127A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;_55r1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMeddispense" Key="{A4CBCC5A-88D7-48F4-9751-A81C74A66899}">
+								<Image FileName="1498474471" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5397024D-1FC4-4364-BEC9-A0075071BDA4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1.medplatform.medavail.com/MedDispense*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodePinVerification" Key="{33F13175-887B-4334-B745-F47CC7A8136C}">
+										<Image FileName="1498474471" Left="783" Top="436" Right="1153" Bottom="464" />
+										<TypeInfo Item0="{F3B73DD3-03B9-451E-B85B-341196B66ADE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;PIN Verification&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;_1s5U4Zz4lp5IB1DUJX6Lro&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContactCenterAgent" Key="{EF3804CE-4316-4C03-B3F4-23293B9418A1}">
+										<Image FileName="-98730671" Left="848" Top="204" Right="1368" Bottom="236" />
+										<TypeInfo Item0="{F3B73DD3-03B9-451E-B85B-341196B66ADE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Contact Center Agent&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;_1uLdCErFjVXANsZ3VR1Rvl&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;_2XxUM-Toftl80s-b5fXXlN&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formFormpinverification" Key="{73A70A0D-D30E-46D7-907E-F785142D9D2C}">
+										<Image FileName="-1675103534" Left="780" Top="502" Right="1150" Bottom="561" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;formPinVerification&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[.=&apos;Enter your PIN&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;mt-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordbox" Key="{AC01D278-12ED-4F41-9691-79F451AC641A}">
+										<Image FileName="-1675103534" Left="780" Top="530" Right="1150" Bottom="561" />
+										<TypeInfo Item0="{2FC87929-1671-43AA-92B8-76B8CD786F1A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSubmit" Key="{8AE328D7-EAFF-4D5D-A19C-A58404F027FD}">
+										<Image FileName="-435452745" Left="1045" Top="647" Right="1140" Bottom="679" />
+										<TypeInfo Item0="{C8CC9550-7B01-4DC8-8F96-323385434416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignIn" Key="{18D6ED2E-F6E9-4F24-911B-4F417D6FB68F}">
+								<Image FileName="-1438021035" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qa1-adfs.medplatform.medavail.com/adfs/ls/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginform" Key="{BA634EF0-9476-481E-BF25-68A9262E0024}">
+										<Image FileName="-1438021035" Left="1470" Top="321" Right="1820" Bottom="455" />
+										<Selectors>
+											<Selector>
+												<Value Value="#loginForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form[contains(@action, &apos;ls&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;loginArea&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputUsernameinput" Key="{C9DA9491-B5A4-47B7-A65B-297B306C72B3}">
+										<Image FileName="-1438021035" Left="1470" Top="321" Right="1820" Bottom="351" />
+										<TypeInfo Item0="{2A60C740-BA5B-4FD8-96E5-7F5CBF8C127A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;User Account&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#userNameInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form[@id=&apos;loginForm&apos;]//input[@name=&apos;UserName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;loginForm&apos;]/div[@id=&apos;formsAuthenticationArea&apos;]/div[@id=&apos;userNameArea&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswordinput" Key="{666E423F-F242-4D71-AD10-15E65560E87D}">
+										<Image FileName="1271616409" Left="1470" Top="359" Right="1820" Bottom="389" />
+										<TypeInfo Item0="{2FC87929-1671-43AA-92B8-76B8CD786F1A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#passwordInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;loginForm&apos;]/div[@id=&apos;formsAuthenticationArea&apos;]/div[@id=&apos;passwordArea&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageCompanylogo" Key="{FDA43CA8-BF1A-4C57-A217-A63E9841BA0B}">
+										<Image FileName="-1869859136" Left="1470" Top="161" Right="1730" Bottom="196" />
+										<TypeInfo Item0="{2A60C740-BA5B-4FD8-96E5-7F5CBF8C127A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#companyLogo" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;logoImage&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header&apos;]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSubmitbutton" Key="{3962CF52-9C1E-4D47-B922-EF106A086A88}">
+										<Image FileName="1939740737" Left="1470" Top="430" Right="1555" Bottom="462" />
+										<TypeInfo Item0="{2A60C740-BA5B-4FD8-96E5-7F5CBF8C127A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#submitButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;submit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;submissionArea&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/main//form/div[@id=&apos;formsAuthenticationArea&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Teams" Key="{F71C167D-0251-4062-9D37-9E4E16A829BD}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Teams" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{793C6D55-2778-458C-A81E-03D8C539A981}">
+								<Image FileName="1501505946" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{EE4F78CE-48CC-4770-87D2-0DC13CA31650}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Rutuja Patil | Microsoft Teams" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{0328528D-2E2F-4900-A228-94BC6B219202}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{3ADE1B33-46C8-4DCA-9B85-FC0CEFBD65D7}">
+								<Image FileName="-238144673" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{0647D3A2-BC9C-443F-BD3A-13632B08A492}">
+										<Image FileName="-238144673" Left="334" Top="0" Right="1683" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{0298079E-61F5-4CC1-8FAD-E8944C5F8970}">
+												<Image FileName="-238144673" Left="336" Top="0" Right="1683" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{918AE3DD-33C7-4ECD-A8F6-F611271FF4EA}">
+														<Image FileName="-238144673" Left="336" Top="0" Right="1683" Bottom="40" />
+														<TypeInfo Item0="{6DDFC293-20C4-44BE-B264-93C1CA55C9CE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{57273A4C-2979-4626-A59A-1A82D43941CC}">
+			<Child Name="BrowserWindow" Owner="{1A96526B-C9DA-43F7-9B0A-1206DB76B40E}" />
+			<Child Name="page403ForbiddenAccessIsDenied" Owner="{CA9BD092-8EC8-43F6-9E3E-963C48E8968E}">
+				<Child Name="textnodeYouDoNotHavePermissionTo" Owner="{D6C5FD07-02EC-4918-8EA3-6E3228740C8F}" />
+			</Child>
+			<Child Name="pageSearch" Owner="{2A4D1D97-164D-401B-A008-E51D9F9615BD}">
+				<Child Name="linkLogIn" Owner="{7E6C5964-96D0-47CA-93AB-3604982C5240}" />
+			</Child>
+			<Child Name="pageWwwFacebookComLogin" Owner="{C5911F05-01F7-47FC-89ED-DA848FC1F286}">
+				<Child Name="formLoginForm" Owner="{2D7D68A7-F418-4CC4-8E72-7A5508904480}">
+					<Child Name="textboxEmailAddressOrPhoneNumber" Owner="{F84DA5DC-FC33-449E-A244-CDD7B305E394}" />
+					<Child Name="passwordboxPassword" Owner="{F88CA9FD-BB3C-4DA2-969F-315BE6A856AE}" />
+					<Child Name="panel" Owner="{D78933CF-A19F-4B24-99CB-25DA469D4DDE}" />
+				</Child>
+			</Child>
+			<Child Name="pageMeddispense" Owner="{A4CBCC5A-88D7-48F4-9751-A81C74A66899}">
+				<Child Name="textnodePinVerification" Owner="{33F13175-887B-4334-B745-F47CC7A8136C}" />
+				<Child Name="textnodeContactCenterAgent" Owner="{EF3804CE-4316-4C03-B3F4-23293B9418A1}" />
+				<Child Name="formFormpinverification" Owner="{73A70A0D-D30E-46D7-907E-F785142D9D2C}">
+					<Child Name="passwordbox" Owner="{AC01D278-12ED-4F41-9691-79F451AC641A}" />
+				</Child>
+				<Child Name="submitbuttonSubmit" Owner="{8AE328D7-EAFF-4D5D-A19C-A58404F027FD}" />
+			</Child>
+			<Child Name="pageSignIn" Owner="{18D6ED2E-F6E9-4F24-911B-4F417D6FB68F}">
+				<Child Name="formLoginform" Owner="{BA634EF0-9476-481E-BF25-68A9262E0024}">
+					<Child Name="emailinputUsernameinput" Owner="{C9DA9491-B5A4-47B7-A65B-297B306C72B3}" />
+					<Child Name="passwordboxPasswordinput" Owner="{666E423F-F242-4D71-AD10-15E65560E87D}" />
+					<Child Name="textnodeSubmitbutton" Owner="{3962CF52-9C1E-4D47-B922-EF106A086A88}" />
+				</Child>
+				<Child Name="imageCompanylogo" Owner="{FDA43CA8-BF1A-4C57-A217-A63E9841BA0B}" />
+			</Child>
+		</Child>
+		<Child Name="Teams" Owner="{F71C167D-0251-4062-9D37-9E4E16A829BD}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{793C6D55-2778-458C-A81E-03D8C539A981}" />
+		</Child>
+		<Child Name="explorer" Owner="{0328528D-2E2F-4900-A228-94BC6B219202}">
+			<Child Name="wndShell_TrayWnd" Owner="{3ADE1B33-46C8-4DCA-9B85-FC0CEFBD65D7}">
+				<Child Name="ReBarWindow32" Owner="{0647D3A2-BC9C-443F-BD3A-13632B08A492}">
+					<Child Name="MSTaskSwWClass" Owner="{0298079E-61F5-4CC1-8FAD-E8944C5F8970}">
+						<Child Name="MSTaskListWClass" Owner="{918AE3DD-33C7-4ECD-A8F6-F611271FF4EA}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Testcases">
+			<folder name="UiVerifications">
+				<child name="TC96667_Verify_the_UI_for_QA_task_" key="{5B1C517C-8B6D-4AB3-9272-7462CB7A0676}" path="TC96667_Verify_the_UI_for_QA_task_.js" />
+				<child name="TC96686_Verify_the_UI_for_Inventory_Grid_window_in_MedDispense_" key="{99ACB8A9-FDE5-4A42-A6DD-646E1D2AEA7E}" path="TC96686_Verify_the_UI_for_Inventory_Grid_window_in_MedDispense_.js" />
+			</folder>
+			<folder name="PackageCountVerification">
+				<child name="TC96672_Verify_the_Drug_Packages_In_Inventory" key="{1C33B5F2-C662-4BE1-B430-7E912F799E42}" path="TC96672_Verify_the_Drug_Packages_In_Inventory.js" />
+			</folder>
+			<folder name="ScanRxDocumentVerification">
+				<child name="TC96706_Verify_Scan_Rx_Document_And_View_Document_In_Next_Task" key="{E3E913C2-06A4-4274-A7FC-16F5657A88DD}" path="TC96706_Verify_Scan_Rx_Document_And_View_Document_In_Next_Task.js" />
+			</folder>
+		</folder>
+		<folder name="MedDispense">
+			<folder name="SearchAndIdentifyCustomer">
+				<child name="SearchAndIdentifyCustomerTask" key="{CEB688CD-DA6F-4608-964E-196E1D6F7FCA}" path="SearchAndIdentifyCustomerTask.js" />
+			</folder>
+			<folder name="SelectPatientAndRx">
+				<child name="SelectPatientAndRxTask" key="{8F54ACC6-3F5D-4901-82A8-8A254C1D74AC}" path="SelectPatientAndRxTask.js" />
+			</folder>
+			<folder name="QAAuthorize">
+				<child name="QaConsultAuthorizeTask" key="{EF0091CF-7F4A-4E9F-B579-F91E66E5E7C3}" path="QaConsultAuthorizeTask.js" />
+			</folder>
+			<folder name="LoginAndLogout">
+				<child name="LogoutMeddispense" key="{0099BF51-FC04-4307-A7FE-06D23B8F7CEA}" path="LogoutMeddispense.js" />
+				<child name="NavigateAndSignInToMedDispense" key="{1662D456-CCA8-4F1C-B964-E135D5C59EE8}" path="NavigateAndSignInToMedDispense.js" />
+			</folder>
+			<folder name="Inventory">
+				<child name="VerifyInventoryPage" key="{9C0DD34B-854C-4602-8806-630C9ADB2AEA}" path="VerifyInventoryPage.js" />
+			</folder>
+			<folder name="EndTransaction">
+				<child name="EndTransactionOnIdentifyAndSpnRx" key="{8D469094-3248-4DB7-8087-990723E27062}" path="EndTransactionOnIdentifyAndSpnRx.js" />
+			</folder>
+			<folder name="commonControls">
+				<child name="commonControlsPage" key="{15A7CFB6-C759-45CA-96FF-7BE528ABC7AB}" path="commonControlsPage.js" />
+			</folder>
+		</folder>
+		<folder name="MedOps">
+			<folder name="LoginAndLogout">
+				<child name="NavigateAndSignInToMedOps" key="{22A2B1A9-B8A8-4A18-9758-B0B15FD5C32D}" path="NavigateAndSignInToMedOps.js" />
+				<child name="LogoutMedOps" key="{B8836B22-7BFC-4AD6-AAF6-10B81DD13D0B}" path="LogoutMedOps.js" />
+			</folder>
+			<folder name="MedCenterMenu">
+				<child name="NavigateToMedCenterPage" key="{9E9D1D88-5338-4ED2-9346-2889C22A0468}" path="NavigateToMedCenterPage.js" />
+				<child name="Unit2" key="{2EA4A79B-F424-43E7-9688-1FA5A422046E}" path="Unit2.js" />
+			</folder>
+		</folder>
+		<folder name="MedCenter" />
+		<folder name="WaitUtilities">
+			<child name="WaitUtilities" key="{8B2D9A0F-AEB8-4648-94CC-BB6A2882638D}" path="WaitUtilities.js" />
+		</folder>
+		<folder name="CustomeEnvironment">
+			<child name="OnStartTestEvent" key="{E90BC139-ED85-4DD5-BE9A-333E883868AC}" path="OnStartTestEvent.js" />
+		</folder>
+		<folder name="Events">
+			<child name="TestEvent" key="{1943A54B-7951-426E-AA61-1DD7D8FEE4B4}" path="TestEvent.js" />
+		</folder>
+	</children>
+</Root>
